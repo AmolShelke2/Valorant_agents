@@ -12,16 +12,12 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-video {
-  width: 100vw;
-}
-
 .hero-container {
   background-image: url("/assets/Valorant_2022_E4A3_PlayVALORANT_PlayValorantHomepage.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 900px;
   backdrop-filter: blur(2px);
   margin-bottom: 1rem;
   border-bottom: 1px thick #fff;
