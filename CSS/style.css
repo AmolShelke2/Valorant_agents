@@ -99,6 +99,11 @@ video {
   letter-spacing: 0.2rem;
 }
 
+.hero-section .border {
+  border: 1px solid #fff;
+  padding: 0.2rem 0.2rem;
+}
+
 .btn {
   background: linear-gradient(
     135deg,
@@ -106,7 +111,7 @@ video {
     rgb(255, 48, 64) 0.01%,
     rgb(255, 125, 102) 100%
   );
-  color: #000;
+  color: #fff;
   padding: 1.1rem 3rem;
   font-size: 1rem;
   border-radius: 0.4rem;
@@ -116,6 +121,7 @@ video {
   border: 1px thick #000;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -128,3 +134,53 @@ video {
 }
 
 /* Hero and header section ends. */
+
+/* Dimension section starts. */
+
+.dimension {
+  background: url("/assets/REV_Valorant_2022_E5A1_PlayVALORANT_PlayValorantHomepage_3440x1020_MB02.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-left: 10rem;
+}
+
+.text p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  letter-spacing: 0.4rem;
+}
+
+.text h2 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.text .border {
+  border: 1px solid #fff;
+  padding: 0.2rem 0.2rem;
+}
+
+.text button {
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+}
