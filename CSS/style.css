@@ -17,16 +17,16 @@ video {
 
 .hero-container {
   background-image: url("/assets/Valorant_2022_E4A3_PlayVALORANT_PlayValorantHomepage.jpg");
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 100vw;
+  height: 100vh;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem;
 }
 
@@ -37,4 +37,26 @@ video {
   font-family: "Permanent Marker", sans-serif;
   cursor: pointer;
   text-shadow: 1px 1px 2px wheat;
+}
+
+.header-right ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-right ul li {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  font-family: "Permanent Marker", sans-serif;
+}
+
+.header-right ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.header-right ul li a:hover {
+  text-decoration: underline;
+  color: #ffff;
 }
