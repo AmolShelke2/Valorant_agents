@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -21,6 +22,9 @@ video {
   background-position: center center;
   background-size: cover;
   height: 100vh;
+  backdrop-filter: blur(2px);
+  margin-bottom: 1rem;
+  border-bottom: 1px thick #fff;
 }
 
 .header {
@@ -28,15 +32,20 @@ video {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  margin-bottom: 20rem;
 }
 
 .header-left h2 {
-  font-size: 3rem;
-  color: rgba(212, 61, 61, 0.274);
+  font-size: 2rem;
+  color: #fff;
   font-weight: normal;
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Rubik", sans-serif;
   cursor: pointer;
-  text-shadow: 1px 1px 2px wheat;
+  transition: 0.3s ease-in-out;
+}
+
+.header-left h2:hover {
+  color: rgb(255, 125, 98);
 }
 
 .header-right ul {
@@ -47,16 +56,75 @@ video {
 .header-right ul li {
   font-size: 1.5rem;
   margin-right: 2rem;
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .header-right ul li a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   transition: 0.5s ease-in-out;
+  text-transform: capitalize;
 }
 
 .header-right ul li a:hover {
   text-decoration: underline;
-  color: #ffff;
+  color: rgb(255, 125, 102);
 }
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero-section h2 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.btn {
+  background: linear-gradient(
+    135deg,
+    rgb(255, 51, 66) 0%,
+    rgb(255, 48, 64) 0.01%,
+    rgb(255, 125, 102) 100%
+  );
+  color: #000;
+  padding: 1.1rem 3rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  font-weight: lighter;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  border: 1px thick #000;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    135deg,
+    rgb(250, 58, 64) 0%,
+    rgb(255, 48, 60) 0.01%,
+    rgb(255, 125, 98) 100%
+  );
+}
+
+/* Hero and header section ends. */
