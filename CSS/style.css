@@ -42,6 +42,7 @@ video {
   font-family: "Rubik", sans-serif;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .header-left h2:hover {
