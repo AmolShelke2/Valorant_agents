@@ -240,3 +240,21 @@ video {
   font-weight: bold;
   color: #fff;
 }
+
+@media (max-width: 1000px) {
+  .header-left h2 {
+    font-size: 0.8rem;
+  }
+
+  .header-right ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .header-right ul li {
+    margin-right: 0.3rem;
+  }
+}
