@@ -199,6 +199,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem 3rem;
+  margin-bottom: 5rem;
 }
 
 .play-left {
@@ -249,6 +250,80 @@ video {
 .play-text .btn {
   font-weight: bold;
   color: #fff;
+}
+
+/* Agents section */
+.agents {
+  background-image: url("/assets/agents\ background.jpg");
+  height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.agents-left {
+  padding-left: 5rem;
+  margin-right: 5rem;
+}
+
+.agents-right {
+  margin-right: 5rem;
+  padding-right: 5rem;
+  position: relative;
+}
+
+.agents-right h1 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10rem;
+  margin-bottom: 3rem;
+}
+
+.agents-right h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.agents-right p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.agents-btn {
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  padding: 1.1rem 3rem;
+  border-radius: 5px;
+}
+
+.agents-border {
+  margin-top: 2rem;
 }
 
 /* Working on responsiveness. */
