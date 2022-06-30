@@ -288,6 +288,24 @@ video {
     display: block;
   }
 
+  /* Dimension */
+  .dimension {
+    height: 700px;
+  }
+
+  .text {
+    padding-left: 0.8rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .text h2 {
+    font-size: 2rem;
+  }
+
   /* play responsive. */
   .play {
     flex-direction: column-reverse;
@@ -352,5 +370,11 @@ video {
   .play-text p {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .play-text p {
+    letter-spacing: 1px;
   }
 }
