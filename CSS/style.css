@@ -20,7 +20,6 @@ body {
   height: 900px;
   backdrop-filter: blur(2px);
   margin-bottom: 1rem;
-  border-bottom: 1px thick #fff;
 }
 
 .header {
@@ -261,7 +260,7 @@ video {
   .header {
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
   }
 
   .header-left h2 {
@@ -305,5 +304,53 @@ video {
     font-size: 1.2rem;
     color: #000;
     text-shadow: 2px 2px 2px #fff;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero-section {
+    padding: 1rem;
+  }
+
+  .hero-section p {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+
+  /* play */
+  .play {
+    padding: 0.5rem 1rem;
+  }
+
+  video {
+    height: 400px;
+    width: 300px;
+  }
+
+  .play-left {
+    margin-left: 0.2rem;
+  }
+
+  .play-text {
+    margin: 0.4rem;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .play-text h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.5rem;
+  }
+
+  .play-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
