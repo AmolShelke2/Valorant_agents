@@ -199,7 +199,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .play-left {
@@ -301,7 +301,6 @@ video {
 }
 
 .agents-right p {
-  margin-bottom: 2rem;
   font-size: 1rem;
   color: #fff;
   font-weight: 400;
@@ -401,6 +400,40 @@ a {
     text-shadow: 2px 2px 2px #fff;
     font-weight: bold;
   }
+
+  /* agents */
+  .agents {
+    flex-direction: column;
+  }
+
+  .agents-left img {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    height: 300px;
+    width: 300px;
+  }
+
+  .agents-right {
+    margin-right: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+  }
+
+  .agents-right h1 {
+    position: static;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .agents-right h2 {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .agents-right p {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 510px) {
@@ -453,5 +486,15 @@ a {
 @media (max-width: 300px) {
   .play-text p {
     letter-spacing: 1px;
+  }
+
+  .agents-left img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .agents-btn {
+    padding: 0.5rem 1rem;
+    font-size: 10px;
   }
 }
