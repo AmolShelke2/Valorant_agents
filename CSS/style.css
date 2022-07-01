@@ -325,6 +325,8 @@ a {
   margin-top: 2rem;
 }
 
+/* Tablets and bigger screen size than 1000px */
+
 /* Working on responsiveness. */
 
 @media (max-width: 800px) {
