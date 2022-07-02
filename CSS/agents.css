@@ -29,23 +29,61 @@ body {
 .agents-container {
   display: flex;
   margin: 1rem 4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .agent {
-  height: 600px;
+  height: 700px;
   width: 400px;
-  text-align: left;
   margin-right: 1rem;
   background-color: rgb(255, 125, 98);
   border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
-img {
-  width: 300px;
-  height: 300px;
+.agent img {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  padding: 1rem 2rem;
+}
+
+.description h1 {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .description p {
   font-size: 1rem;
-  line-height: 1.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 300px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:active {
+  outline: none;
 }
