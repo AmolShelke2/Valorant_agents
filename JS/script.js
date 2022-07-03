@@ -1,6 +1,7 @@
-const menu = document.querySelector(".menu");
-const ul = document.querySelector(".menu-list");
+const menu = document.getElementById("menu");
+const menuItem = document.querySelector(".menu-list");
 
 menu.addEventListener("click", function () {
-  ul.classList.toggle("active");
+  console.log("menu clicked");
+  menuItem.classList.toggle("active");
 });
