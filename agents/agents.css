@@ -8,6 +8,11 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  background-image: url("https://images5.alphacoders.com/108/thumb-1920-1081832.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  backdrop-filter: blur(5px);
 }
 
 .header {
