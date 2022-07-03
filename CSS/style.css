@@ -401,7 +401,7 @@ a {
   .header {
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
   }
 
   .header-left h2 {
