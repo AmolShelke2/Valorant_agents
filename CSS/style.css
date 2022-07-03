@@ -15,7 +15,7 @@ body {
 }
 
 .hero-container {
-  background-image: url("/assets/Valorant_2022_E4A3_PlayVALORANT_PlayValorantHomepage.jpg");
+  background-image: url("/assets/homeBg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -145,7 +145,7 @@ body {
 /* Dimension section starts. */
 
 .dimension {
-  background: url("/assets/REV_Valorant_2022_E5A1_PlayVALORANT_PlayValorantHomepage_3440x1020_MB02.jpg");
+  background: url("/assets/overviewBg.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;

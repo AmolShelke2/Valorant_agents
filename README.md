@@ -15,11 +15,11 @@ Clone of the Valorant webPage created with HTML CSS and JS. also to find all val
 
 # DEMO.
 
-<img src="/assets/preview.png">
+<img src="/preview/preview.png">
 
 <hr>
 
-<img src="/assets/PreviewAgents.png">
+<img src="/preview/PreviewAgents.png">
 
 <hr>
 
