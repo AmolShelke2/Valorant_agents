@@ -117,7 +117,15 @@
     </div>
 
     <!-- js -->
-    <script src="/js/script.js"></script>
+    <script>
+      const menu = document.getElementById("menu");
+      const menuItem = document.querySelector(".menu-list");
+
+      menu.addEventListener("click", function () {
+        console.log("menu clicked");
+        menuItem.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
 
