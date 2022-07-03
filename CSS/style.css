@@ -394,13 +394,14 @@ a {
 @media (max-width: 820px) {
   /* Hero-container */
   .hero-container {
-    background-position-x: center;
+    background-position-x: 65%;
+    backdrop-filter: blur(4px);
   }
 
   .header {
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
   }
 
   .header-left h2 {

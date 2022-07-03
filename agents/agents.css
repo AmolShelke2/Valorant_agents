@@ -38,10 +38,9 @@ body {
 .agents-container {
   display: flex;
   margin: 1rem 4rem;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .agent {
@@ -96,4 +95,30 @@ body {
 
 .btn:active {
   outline: none;
+}
+
+@media (max-width: 500px) {
+  .agents-container {
+    flex-direction: column;
+    margin: 1rem 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .agent {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .agent {
+    height: 600px;
+    width: 300px;
+  }
+
+  .agent img {
+    width: 300px;
+    height: 300px;
+  }
 }
