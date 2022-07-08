@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,7 +12,8 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 
 .hero-container {
@@ -29,7 +31,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  margin-bottom: 20rem;
+  /* margin-bottom: 20rem; */
 }
 
 .menu {
@@ -41,18 +43,10 @@ body {
   cursor: pointer;
 }
 
-.header-left h2 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: normal;
-  font-family: "Rubik", sans-serif;
+.header-left img {
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  text-transform: uppercase;
-}
-
-.header-left h2:hover {
-  color: rgb(255, 125, 98);
+  width: 20%;
 }
 
 .header-right ul {
@@ -84,26 +78,28 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  margin: 160px auto;
 }
 
 .hero-section p {
-  font-size: 1rem;
-  color: #fff;
+  font-size: 1.2rem;
+  color: #e6e6e6;
   font-weight: normal;
   text-transform: capitalize;
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
 }
 
-.hero-section h2 {
-  color: #fff;
-  font-family: "Rubik", sans-serif;
-  font-size: 4rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 2px #000;
-  margin-bottom: 1rem;
-  letter-spacing: 0.2rem;
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero-img img {
+  width: 85%;
 }
 
 .border {
@@ -169,7 +165,13 @@ body {
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  padding-left: 10rem;
+  margin: 0 100px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text p {
@@ -177,18 +179,18 @@ body {
   color: #fff;
   font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   letter-spacing: 0.4rem;
 }
 
 .text h2 {
   color: #fff;
-  font-family: "Rubik", sans-serif;
-  font-size: 4rem;
-  font-weight: 200;
+  font-family: "Inter", sans-serif;
+  font-size: 7rem;
+  font-weight: 600;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #000;
-  margin-bottom: 2rem;
+  /* text-shadow: 2px 2px 2px #000; */
+  margin-bottom: 1rem;
   letter-spacing: 0.2rem;
 }
 
