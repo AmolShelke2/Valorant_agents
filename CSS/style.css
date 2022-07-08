@@ -106,38 +106,49 @@ body {
   letter-spacing: 0.2rem;
 }
 
-.hero-section .border {
+.border {
   border: 1px solid #fff;
   padding: 0.2rem 0.2rem;
 }
 
+.border--dark {
+  border: 1px solid black;
+  padding: 0.2rem 0.2rem;
+  width: 50.4%;
+}
+.border--light {
+  border: 1px solid #fff;
+  padding: 0.2rem 0.2rem;
+  width: 44.8%;
+}
+
 .btn {
-  background: linear-gradient(
-    135deg,
-    rgb(255, 51, 66) 0%,
-    rgb(255, 48, 64) 0.01%,
-    rgb(255, 125, 102) 100%
-  );
+  display: inline-block;
+  background-color: #ff4655;
   color: #fff;
-  padding: 1.1rem 3rem;
+  padding: 1.1rem 4rem;
   font-size: 1rem;
-  border-radius: 0.4rem;
+  /* border-radius: 0.4rem; */
   font-weight: lighter;
-  transition: 0.5s ease-in-out;
+  /* transition: 0.5s ease-in-out; */
   cursor: pointer;
-  border: 1px thick #000;
+  border: none;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+
+  background-size: 1.1rem 4rem;
+  transition: all ease 0.8s;
+  position: relative;
 }
 
 .btn:hover {
-  background: linear-gradient(
-    135deg,
-    rgb(250, 58, 64) 0%,
-    rgb(255, 48, 60) 0.01%,
-    rgb(255, 125, 98) 100%
-  );
+  background-repeat: no-repeat;
+  background-position: -50px -50px;
+  background-image: linear-gradient(135deg, #31302b 50%, transparent 51%);
+  background-size: 200% 200%;
+  background-position: 0px 0px;
+  color: #fff;
 }
 
 /* Hero and header section ends. */
@@ -313,11 +324,16 @@ a {
 }
 
 .agents-btn {
+  width: 100%;
   background-color: #fff;
+  font-family: "Rubik", sans-serif;
   color: #000;
+  font-size: 1rem;
+  font-weight: 500;
   letter-spacing: 0.2rem;
+  text-align: center;
   text-transform: uppercase;
-  padding: 1.1rem 3rem;
+  padding: 1.1rem 2rem;
   border-radius: 5px;
 }
 
