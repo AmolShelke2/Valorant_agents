@@ -304,36 +304,39 @@ video {
   margin-right: 5rem;
   padding-right: 5rem;
   position: relative;
+  margin-top: -4rem;
+  margin-left: 5rem;
 }
 
 .agents-right h1 {
-  color: #fff;
-  font-family: "Rubik", sans-serif;
-  font-size: 4rem;
+  color: #ece8e1;
+  font-family: "Inter", sans-serif;
+  font-size: 6rem;
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #000;
-  letter-spacing: 0.2rem;
-  font-weight: bold;
+  /* text-shadow: 2px 2px 2px #000; */
+  letter-spacing: 0.1rem;
+  /* font-weight: bold; */
   position: absolute;
   bottom: 10rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
 }
 
 .agents-right h2 {
   font-size: 2rem;
-  color: #fff;
+  color: #ece8e1;
   font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 2rem;
-  letter-spacing: 0.2rem;
+  margin-bottom: 1.4rem;
+  /* letter-spacing: 0.2rem; */
 }
 
 .agents-right p {
-  font-size: 1rem;
-  color: #fff;
+  width: 60%;
+  font-size: 1.08rem;
+  color: #ece8e1;
   font-weight: 400;
   line-height: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 a {
@@ -406,13 +409,13 @@ a {
   .agents-right h1 {
     position: static;
     margin-bottom: 1rem;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
 
-  .agents-right h2 {
+  /* .agents-right h2 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
-  }
+  } */
 }
 
 @media (max-width: 1140px) {
