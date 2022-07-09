@@ -1,0 +1,333 @@
+/* Tablets and bigger screen size than 1000px */
+
+@media (max-width: 1200px) {
+  .text {
+    margin: 0px;
+    margin-left: 1rem;
+  }
+
+  .play {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .play-left {
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+
+  .play-text {
+    padding: 0.5rem;
+  }
+
+  .play-text h2 {
+    background-color: #fff;
+    color: #000;
+    text-shadow: 2px 2px 2px #fff;
+  }
+
+  .play-text h3 {
+    font-size: 2rem;
+  }
+
+  .play-description {
+    margin-left: 1.6rem;
+  }
+
+  .play-video {
+    margin-top: 6rem;
+  }
+
+  .agents {
+    height: 700px;
+  }
+
+  .agents-right {
+    margin: 0px;
+  }
+
+  .agents img {
+    width: 600px;
+  }
+
+  .agents-right h1 {
+    font-size: 4rem;
+  }
+
+  .agents-right p {
+    width: 100%;
+  }
+}
+
+/* for play section */
+@media (max-width: 1100px) {
+  .play {
+    flex-direction: column-reverse;
+  }
+
+  .play-text {
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .play-left,
+  .play-video,
+  video {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .agents img {
+    max-width: 450px;
+  }
+}
+
+/* for agents section   */
+@media (max-width: 1760px) {
+  .agents-left {
+    padding-left: 1rem;
+    margin-right: 0rem;
+  }
+
+  .agents-right {
+    margin-right: 1rem;
+    padding-right: 0;
+  }
+
+  .agents-right h1 {
+    position: static;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+  }
+
+  .agents-right h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+}
+
+/* @media (max-width: 1140px) {
+  .agents-left img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+/* Working on responsiveness. */
+
+@media (max-width: 820px) {
+  /* Hero-container */
+  .hero-container {
+    background-position-x: 65%;
+    backdrop-filter: blur(4px);
+  }
+
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10rem;
+  }
+
+  .header-left h2 {
+    margin-bottom: 3rem;
+  }
+
+  .header-right ul {
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    transition: 0.3s ease-in-out;
+  }
+
+  .header-right ul li {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    transition: 0.2s ease-in-out;
+  }
+
+  .header-right ul.active {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .menu {
+    display: block;
+    width: 25px;
+  }
+
+  /* Dimension */
+  .dimension {
+    height: 700px;
+  }
+
+  .text {
+    padding-left: 0.8rem;
+    padding: unset;
+    margin: unset;
+    height: unset;
+    width: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .text p {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .text h2 {
+    font-size: 5rem;
+  }
+
+  .center {
+    margin: 300px 0;
+  }
+
+  /* play responsive. */
+  .play {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .play-text h2 {
+    background: none;
+    font-size: 3rem;
+    color: #000;
+    /* text-shadow: 2px 2px 2px #fff; */
+    /* font-weight: bold; */
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .play-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .play-video {
+    width: 450px;
+  }
+
+  /* agents */
+  .agents {
+    flex-direction: column;
+    padding: 4rem;
+    height: unset;
+  }
+
+  .agents-right {
+    margin-right: unset;
+    padding-right: unset;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .agents-right h1 {
+    position: static;
+    font-size: 4rem;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .agents-right h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .agents-right p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .agents-border {
+    margin: 0.5rem;
+  }
+
+  .border--dark {
+    width: 251px;
+  }
+  .border--light {
+    width: 251px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero-section {
+    padding: 1rem;
+  }
+
+  .hero-section p {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+
+  /* play */
+  .play {
+    padding: 0.5rem 1rem;
+  }
+
+  video {
+    width: 400px;
+  }
+
+  .play-left {
+    margin-left: 0rem;
+  }
+
+  .play-text {
+    margin: 0.4rem;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .play-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .play-text h3 {
+    font-size: 1.6rem;
+  }
+
+  .border--dark {
+    width: 293px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .play-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .center {
+    margin-left: 0.6rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .play-text p {
+    letter-spacing: 1px;
+  }
+
+  .agents-left img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .agents-btn {
+    padding: 0.5rem 1rem;
+    font-size: 10px;
+  }
+}

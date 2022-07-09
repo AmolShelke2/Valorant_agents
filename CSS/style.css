@@ -115,7 +115,7 @@ body {
 .border--light {
   border: 1px solid #fff;
   padding: 0.2rem 0.2rem;
-  width: 44.8%;
+  max-width: 300px;
 }
 
 .btn {
@@ -225,11 +225,11 @@ body {
 video {
   border-radius: 5px;
   /* height: 600px; */
-  width: 650px;
+  width: 600px;
   /* margin: 120px 0; */
   padding: 0.5rem;
   margin-top: 9rem;
-  margin-right: 1rem;
+  margin-right: 5rem;
 }
 
 /* play text  */
@@ -242,14 +242,14 @@ video {
 }
 
 .play-description {
-  width: 80%;
-  margin-left: 5rem;
+  width: 100%;
+  margin-left: 2rem;
 }
 .play-text h2 {
-  width: 121%;
+  /* width: 121%; */
   color: #000;
   font-family: "Inter", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   /* text-shadow: 2px 2px 2px #000; */
   margin-bottom: 3rem;
@@ -283,7 +283,8 @@ video {
 /* Agents section */
 .agents {
   background-image: url("/assets/agents\ background.jpg");
-  height: 700px;
+  width: 100%;
+  height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -305,16 +306,17 @@ video {
   padding-right: 5rem;
   position: relative;
   margin-top: -4rem;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 
 .agents-right h1 {
   color: #ece8e1;
   font-family: "Inter", sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: uppercase;
   /* text-shadow: 2px 2px 2px #000; */
   letter-spacing: 0.1rem;
+  font-weight: 600;
   /* font-weight: bold; */
   position: absolute;
   bottom: 10rem;
@@ -331,7 +333,7 @@ video {
 }
 
 .agents-right p {
-  width: 60%;
+  width: 80%;
   font-size: 1.08rem;
   color: #ece8e1;
   font-weight: 400;
@@ -359,245 +361,4 @@ a {
 
 .agents-border {
   margin-top: 2rem;
-}
-
-/* Tablets and bigger screen size than 1000px */
-@media (max-width: 1200px) {
-  .play {
-    padding: 0.5rem 1.5rem;
-  }
-
-  .play-left {
-    margin-left: 1rem;
-  }
-
-  .play-text {
-    padding: 0.5rem;
-  }
-
-  .play-text h2 {
-    font-size: 2rem;
-    background-color: #fff;
-    color: #000;
-    text-shadow: 2px 2px 2px #fff;
-  }
-
-  .play-text h3 {
-    font-size: 1.4rem;
-  }
-}
-
-/* for play section */
-@media (max-width: 1100px) {
-  .play {
-    flex-direction: column;
-  }
-}
-
-/* for agents section  */
-@media (max-width: 1760px) {
-  .agents-left {
-    padding-left: 1rem;
-    margin-right: 0rem;
-  }
-
-  .agents-right {
-    margin-right: 1rem;
-    padding-right: 0;
-  }
-
-  .agents-right h1 {
-    position: static;
-    margin-bottom: 1rem;
-    /* font-size: 3rem; */
-  }
-
-  /* .agents-right h2 {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-  } */
-}
-
-@media (max-width: 1140px) {
-  .agents-left img {
-    height: 500px;
-    width: 500px;
-  }
-}
-
-/* Working on responsiveness. */
-
-@media (max-width: 820px) {
-  /* Hero-container */
-  .hero-container {
-    background-position-x: 65%;
-    backdrop-filter: blur(4px);
-  }
-
-  .header {
-    align-items: flex-start;
-    flex-direction: column;
-    margin-bottom: 10rem;
-  }
-
-  .header-left h2 {
-    margin-bottom: 3rem;
-  }
-
-  .header-right ul {
-    flex-direction: column;
-    justify-content: space-between;
-    display: none;
-    transition: 0.3s ease-in-out;
-  }
-
-  .header-right ul li {
-    margin-right: 0;
-    margin-bottom: 2rem;
-    transition: 0.2s ease-in-out;
-  }
-
-  .header-right ul.active {
-    display: block;
-  }
-
-  .menu {
-    display: block;
-  }
-
-  /* Dimension */
-  .dimension {
-    height: 700px;
-  }
-
-  .text {
-    padding-left: 0.8rem;
-  }
-
-  .text p {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-  }
-
-  .text h2 {
-    font-size: 2rem;
-  }
-
-  /* play responsive. */
-  .play {
-    flex-direction: column-reverse;
-    padding: 1rem;
-  }
-
-  video {
-    width: 500px;
-    height: 500px;
-  }
-
-  .play-text h2 {
-    background: none;
-    font-size: 1.2rem;
-    color: #000;
-    text-shadow: 2px 2px 2px #fff;
-    font-weight: bold;
-  }
-
-  /* agents */
-  .agents {
-    flex-direction: column;
-  }
-
-  .agents-left img {
-    padding-left: 1rem;
-    margin-right: 1rem;
-    height: 300px;
-    width: 300px;
-  }
-
-  .agents-right {
-    margin-right: 0rem;
-    padding-right: 0rem;
-    text-align: center;
-  }
-
-  .agents-right h1 {
-    position: static;
-    font-size: 2rem;
-    margin-bottom: 0.6rem;
-    letter-spacing: 0.1rem;
-  }
-
-  .agents-right h2 {
-    font-size: 1rem;
-    margin-bottom: 0.7rem;
-  }
-
-  .agents-right p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.5rem;
-  }
-}
-
-@media (max-width: 510px) {
-  .hero-section {
-    padding: 1rem;
-  }
-
-  .hero-section p {
-    text-align: center;
-    font-size: 0.7rem;
-  }
-
-  .hero-section h2 {
-    font-size: 2rem;
-  }
-
-  /* play */
-  .play {
-    padding: 0.5rem 1rem;
-  }
-
-  video {
-    height: 400px;
-    width: 300px;
-  }
-
-  .play-left {
-    margin-left: 0rem;
-  }
-
-  .play-text {
-    margin: 0.4rem;
-    padding: 0.5rem 0.5rem;
-  }
-
-  .play-text h3 {
-    font-size: 1rem;
-  }
-
-  .btn {
-    font-size: 0.5rem;
-  }
-
-  .play-text p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-}
-
-@media (max-width: 300px) {
-  .play-text p {
-    letter-spacing: 1px;
-  }
-
-  .agents-left img {
-    height: 150px;
-    width: 150px;
-  }
-
-  .agents-btn {
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-  }
 }
