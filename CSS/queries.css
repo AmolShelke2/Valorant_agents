@@ -153,7 +153,7 @@
 
   .menu {
     display: block;
-    width: 25px;
+    width: 35px;
   }
 
   /* Dimension */
@@ -259,6 +259,10 @@
 }
 
 @media (max-width: 510px) {
+  .header-left img {
+    width: 40%;
+  }
+
   .hero-section {
     padding: 1rem;
   }
@@ -313,6 +317,43 @@
 
   .center {
     margin-left: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text h2 {
+    font-size: 3.8rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .border {
+    max-width: 80%;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .play-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .play-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .play-video {
+    width: 350px;
+    margin: unset;
+    margin-left: 0.5rem;
+  }
+
+  .agents img {
+    width: 340px;
+    padding: unset;
   }
 }
 
