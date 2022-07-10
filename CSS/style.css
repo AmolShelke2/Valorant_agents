@@ -318,9 +318,9 @@ video {
   letter-spacing: 0.1rem;
   font-weight: 600;
   /* font-weight: bold; */
-  position: absolute;
-  bottom: 10rem;
-  margin-bottom: 2.8rem;
+  /* position: absolute; */
+  /* bottom: 10rem;
+  margin-bottom: 2.8rem; */
 }
 
 .agents-right h2 {
