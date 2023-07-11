@@ -30,6 +30,6 @@ Clone of the Valorant webPage created with HTML CSS and JS. also to find all val
 
 - Responsive on mobile, tablet, desktop.
 
-# creator.
+# Creator.
 
 [Amol Shelke](https://github.com/AmolShelke2)
